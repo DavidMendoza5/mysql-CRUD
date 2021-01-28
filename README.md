@@ -124,6 +124,8 @@ You have to send an id at the end of the endpoint
 `http://localhost:3006/v1/students/12345
 `
 
+Response expected:
+
 ```JSON
 {
     "msg": "Student eliminated",
