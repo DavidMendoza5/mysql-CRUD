@@ -1,7 +1,7 @@
 # CRUD
 This project is a CRUD (Create, Read, Update and Delete) made with NodeJs and express.
 
-Remember that you have to create you **.env** file based on .env.example file.
+Remember that you have to create you **.env** file based on .env.example file. If you are going to use docker, on your *.env* file you have to use the name of the database service created on your **docker-compose.yml** file on your *DB_HOST* variable.
 ## Commands:
 Installing dependencies:
 
@@ -22,10 +22,10 @@ Running tests:
 
 `npm test
 `
-### Using Docker
-Creating the image:
+### Using Docker compose
+Creating images, containers and starting the containers:
 
-Creating the container:
+`sudo docker-compose up`
 
 ## HTTP requests:
 ### GET:
